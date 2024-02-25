@@ -11,12 +11,18 @@ public class CheckingAccount extends BankAccount {
 		if(amount > this.getBalance()) {
 			super.withdrawal(30);
 			System.out.println
-				("An overdraft fee of $30 was applied, new balance is: " + this.getBalance());
+				("An overdraft fee of $30 was applied, new balance is: " 
+				+ this.getBalance());
 		}
 	}
 
 	public void setInterestRate(int rate) {
 		this.interestRate = rate;
+	}
+
+	public void processDeposit(Double amount) {
+		super.deposit(amount);
+		
 	}
 
 }
