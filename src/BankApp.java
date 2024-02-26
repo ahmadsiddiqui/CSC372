@@ -90,7 +90,7 @@ public class BankApp extends JFrame implements ActionListener{
 	    
 	    add(panel);
 	
-	}
+	}	
 	
 	void setBalanceField() {
 		if(ca != null) {

@@ -46,10 +46,4 @@ public class BankAccount {
 	public double getBalance() {
 		return balance;
 	}
-//not to be used
-//	public void setBalance(double balance) {
-//		this.balance = balance;
-//	}
-	
-
 }
