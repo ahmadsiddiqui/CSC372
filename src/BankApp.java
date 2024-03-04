@@ -110,14 +110,14 @@ public class BankApp extends JFrame implements ActionListener{
 		setBalanceField();
 	}
 	
-	public static void main(String args[]) {
-		BankApp myFrame = new BankApp();
-		myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		myFrame.pack();
-		myFrame.setVisible(true);		
-		myFrame.setBalanceField();
-		
-		
-		
-	}
+//	public static void main(String args[]) {
+//		BankApp myFrame = new BankApp();
+//		myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//		myFrame.pack();
+//		myFrame.setVisible(true);
+//		myFrame.setBalanceField();
+//
+//
+//
+//	}
 }
