@@ -27,14 +27,16 @@ public class BankApp extends JFrame implements ActionListener{
 	
 	BankApp(){
 		
+		//gridbag is used to layout the panel
 		GridBagConstraints positionConst = null;
 		setTitle("Deposit/Withdraw");
 		
-		
+		//labels for the view
 		withdrawalLabel = new JLabel("Withdrawal Amount:" );
 		depositLabel = new JLabel("Deposit Amount:" );
 		balanceLabel = new JLabel("Deposit Amount:" );
 		
+		//setting up the ui elements
 		withdrawalField = new JTextField(5);
 		withdrawalField.setEditable(true);
 		withdrawalField.setText("0");
@@ -110,14 +112,11 @@ public class BankApp extends JFrame implements ActionListener{
 		setBalanceField();
 	}
 	
-//	public static void main(String args[]) {
-//		BankApp myFrame = new BankApp();
-//		myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//		myFrame.pack();
-//		myFrame.setVisible(true);
-//		myFrame.setBalanceField();
-//
-//
-//
-//	}
+	public static void main(String args[]) {
+		BankApp myFrame = new BankApp();
+		myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		myFrame.pack();
+		myFrame.setVisible(true);
+		myFrame.setBalanceField();
+	}
 }
