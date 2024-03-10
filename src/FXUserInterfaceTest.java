@@ -14,8 +14,8 @@ import javafx.stage.Stage;
 public class FXUserInterfaceTest extends Application {
 	Scene scene = null;
 	private String colorString = "-fx-background-color: #001100";
-	@Override
 	
+	@Override	
 	public void start(Stage stage){
 		stage.setTitle("Demonstration");
 
@@ -61,12 +61,14 @@ public class FXUserInterfaceTest extends Application {
 			public void handle(ActionEvent arg0) {
 				Random r = new Random();
 				colorString = "-fx-background-color: #00"
-						+String.format("%02d",r.nextInt(100))
+						+randomHexCode()
 						+"00";
 				System.out.println(colorString);
 				gp.setStyle(colorString);
 			}
 		};
+		
+		
 		EventHandler<ActionEvent> exit = new EventHandler<ActionEvent>() {
 			@Override
 			public void handle(ActionEvent arg0) {
@@ -85,8 +87,19 @@ public class FXUserInterfaceTest extends Application {
 		stage.show();
 	}
 	
-//	public static void main(String[] args) {
-//		launch(args);
-//	}
+	private String randomHexCode() {
+		Random random = new Random();
+		
+		String s = (String.format("%02x",random.nextInt(256)));
+		
+		System.out.println("S = " + s);
+		return s;
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		launch(args);
+	}
 
 }

@@ -4,7 +4,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>590</x>
+      <x>340</x>
       <y>120</y>
       <w>210</w>
       <h>140</h>
@@ -21,7 +21,7 @@ toString():String
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>330</x>
+      <x>80</x>
       <y>330</y>
       <w>210</w>
       <h>110</h>
@@ -38,7 +38,7 @@ toString():String
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>430</x>
+      <x>180</x>
       <y>250</y>
       <w>180</w>
       <h>100</h>
@@ -49,7 +49,7 @@ toString():String
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>570</x>
+      <x>320</x>
       <y>330</y>
       <w>260</w>
       <h>110</h>
@@ -67,7 +67,7 @@ toString():String
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>850</x>
+      <x>600</x>
       <y>330</y>
       <w>250</w>
       <h>110</h>
@@ -86,7 +86,7 @@ toString():String
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>590</x>
+      <x>340</x>
       <y>520</y>
       <w>210</w>
       <h>110</h>
@@ -101,7 +101,7 @@ main() :void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>790</x>
+      <x>540</x>
       <y>250</y>
       <w>190</w>
       <h>100</h>
@@ -112,7 +112,7 @@ main() :void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>690</x>
+      <x>440</x>
       <y>250</y>
       <w>30</w>
       <h>100</h>
@@ -123,7 +123,7 @@ main() :void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>430</x>
+      <x>180</x>
       <y>430</y>
       <w>180</w>
       <h>110</h>
@@ -134,7 +134,7 @@ main() :void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>690</x>
+      <x>440</x>
       <y>430</y>
       <w>30</w>
       <h>110</h>
@@ -145,7 +145,7 @@ main() :void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>790</x>
+      <x>540</x>
       <y>430</y>
       <w>190</w>
       <h>110</h>
