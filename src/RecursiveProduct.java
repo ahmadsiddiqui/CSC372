@@ -2,11 +2,13 @@ import java.util.Scanner;
 
 public class RecursiveProduct {
 	
-	
+	//builder pattern is being used, 
+	//this method will only call the main method once
 	public static int productOfArray(int input[]) {
 			return productOfArray(input,0);
 	}
 	
+	//a recursive function to calculate the product of the array
 	private static int productOfArray(int numbers[], int index) {
 	
 		if(index == numbers.length -1) {
@@ -14,9 +16,9 @@ public class RecursiveProduct {
 		}
 		else {
 			return numbers[index] * productOfArray(numbers, index+1);
-			
 		}
 	}
+	
 	
 	public static void main(String args[]) {
 		
