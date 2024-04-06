@@ -1,21 +1,22 @@
+import java.io.Serializable;
 
-public class Student {
-	private int rollno;
+public class Student implements Serializable {
 	private String name;
 	private String address;
+	private double GPA;
 	
-	
-	public Student(int rollno, String name, String address) {
-		this.rollno = rollno;
+	public Student(String name, String address, double GPA){
 		this.name = name;
 		this.address = address;
+		this.GPA = GPA;
 	}
-	public int getRollno() {
-		return rollno;
+	
+	
+	public Student() {
+		this.GPA = -1;
 	}
-	public void setRollno(int rollno) {
-		this.rollno = rollno;
-	}
+
+
 	public String getName() {
 		return name;
 	}
@@ -30,7 +31,13 @@ public class Student {
 	}
 	
 	public String toString() {
-		return(this.rollno + " " + this.name + " " + this.address);
+		return(this.name + " " + this.address + " " + this.GPA);
+	}
+	public double getGPA() {
+		return GPA;
+	}
+	public void setGPA(double GPA) {
+		this.GPA = GPA;
 	}
 	
 }
